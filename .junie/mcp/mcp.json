@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "C:\\Users\\gabri\\AppData\\Local\\Programs\\PHP\\current\\php.exe",
+            "args": [
+                "C:\\Users\\gabri\\Desktop\\laravel-proyectos\\habit-tracker\\artisan",
+                "boost:mcp"
+            ]
+        }
+    }
+}
