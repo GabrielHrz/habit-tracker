@@ -1,16 +1,14 @@
-<h1>Welcome {{$name}}</h1>
-<h2>Y Tus habitos son</h2>
-<ul>
-    @foreach($habits as $item)
-        <li>{{$item}}</li>
-    @endforeach
-</ul>
-
-
-@auth
-    <p>Esta logado</p>
-@endauth
-
-@guest
-    <p>No estas logado</p>
-@endguest
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{config('app.name')}}</title>
+  @vite('resources/css/app.css')
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello World
+  </h1>
+</body>
+</html>
